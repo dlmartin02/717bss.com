@@ -1,8 +1,8 @@
 ---
 deployment:
   tasks:
-    - export SRCPATH=/home/bss717sstOrg/repositories/717bss.com
-    - export DEPLOYPATH=/home/bss717sstOrg/public_html
+    - export SRCPATH=/home/bss717sst0rg/repositories/717bss.com
+    - export DEPLOYPATH=/home/bss717sst0rg/public_html
     - /bin/mkdir -p $DEPLOYPATH/images
     - /bin/cp $SRCPATH/index.html $DEPLOYPATH/
     - /bin/cp $SRCPATH/style.css $DEPLOYPATH/
