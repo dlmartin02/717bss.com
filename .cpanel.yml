@@ -1,0 +1,15 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/bss717sstOrg/public_html/
+    - /bin/cp -R index.html $DEPLOYPATH
+    - /bin/cp -R style.css $DEPLOYPATH
+    - /bin/cp -R .htaccess $DEPLOYPATH
+    - /bin/cp -R favicon.ico $DEPLOYPATH
+    - /bin/cp -R favicon.svg $DEPLOYPATH
+    - /bin/cp -R favicon-96x96.png $DEPLOYPATH
+    - /bin/cp -R apple-touch-icon.png $DEPLOYPATH
+    - /bin/cp -R site.webmanifest $DEPLOYPATH
+    - /bin/cp -R web-app-manifest-192x192.png $DEPLOYPATH
+    - /bin/cp -R web-app-manifest-512x512.png $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
